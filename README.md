@@ -1,6 +1,14 @@
-# BigQuery Analytics Pipeline for Financial Data
+## BigQuery Analytics Pipeline for Financial Data
 
 A lightweight, production-ready analytics platform that fetches live stock data from Yahoo Finance, computes technical indicators, persists results to CSV/SQL, and exports Looker dashboards.
+
+#Demonstration 
+
+
+
+https://github.com/user-attachments/assets/5d71f68a-2a50-409e-bef8-11adc395de3e
+
+
 
 ## Quick Start
 
