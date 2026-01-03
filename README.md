@@ -368,20 +368,7 @@ resource "google_bigquery_table" "stock_prices" {
 
 MIT License - Use freely for learning and interviews
 
-## 👨‍💼 Interview Prep Tips
-
-**When discussing this project:**
-
-1. **Lead with impact**: "This architecture reduced analytics query costs by $20K/month while improving response times 7-37x"
-
-2. **Discuss trade-offs**: "We chose partitioning over sharding because BigQuery handles distributed execution automatically"
-
-3. **Show problem-solving**: "We initially didn't use clustering, but identified it after profiling slow queries on symbol filters"
-
-4. **Explain scalability**: "Partitioning ensures we can handle 100x data growth without changing query code"
-
-5. **Demonstrate business acumen**: "Materialized aggregates meant we could serve 95% of queries from pre-computed tables"
 
 ---
 
-**Built to demonstrate enterprise analytics patterns. Ready for interviews.** ✨
+**Built to demonstrate enterprise analytics patterns.** ✨
