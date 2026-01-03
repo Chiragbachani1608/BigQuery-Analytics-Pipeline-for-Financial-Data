@@ -63,20 +63,6 @@ app.py                    # Main GUI application
 - **Analytics**: BigQuery (optional), local SQL generation
 - **Dashboards**: Looker JSON + LookML export
 
-## Interview Highlights
-
-- 7-37x query performance improvement (partitioning + clustering)
-- $20K+/month cost savings at scale
-- Handles billions of records with <2s latency
-- Production-ready Python package structure
-
-## Example Use Cases
-
-- Stock trend analysis and alerting
-- Portfolio performance monitoring
-- Volatility and technical indicator tracking
-- Market-wide comparative analysis
-
 ---
 
 **Status**: ✅ Production Ready | **Use**: Interview Demo & Learning | **Updated**: Jan 2026
@@ -255,67 +241,6 @@ With partitioning/clustering:
 - 1000 queries/day: $35
 - Monthly savings: ~$20,000
 ```
-
-## 🎓 Interview Discussion Points
-
-### 1. Schema Optimization
-**Question**: "How did you optimize the BigQuery tables for analytical queries?"
-
-**Answer**: 
-- Implemented **time-based partitioning** on date columns to reduce scan scope
-- Applied **clustering** on frequently-filtered columns (symbol, portfolio_id)
-- Created **materialized pre-aggregated tables** to avoid expensive GROUP BY operations
-- Impact: 80-95% reduction in bytes scanned, query latency improved from seconds to milliseconds
-
-### 2. Query Performance
-**Question**: "Walk us through how you optimized query performance."
-
-**Answer**:
-- Replaced SELECT * with specific columns → reduced scan size
-- Replaced expensive JOINs with window functions (LAG, LEAD, ROW_NUMBER)
-- Added date filters to leverage partitioning → 99% reduction in data scanned
-- Used SAFE_DIVIDE for null-safe aggregations
-- Result: 7-37x performance improvement across queries
-
-### 3. Cost Management
-**Question**: "How do you manage BigQuery costs in production?"
-
-**Answer**:
-- BigQuery charges $7/TB scanned; every column matters
-- Dry-run queries before execution to estimate cost ($0.035 vs $0.70)
-- Materialized aggregated tables reduce repeated full-table scans
-- Automated data lifecycle policies (archive data >1 year old)
-- Estimated savings: $20K+/month compared to unoptimized queries
-
-### 4. Scalability
-**Question**: "How does your architecture scale to billions of records?"
-
-**Answer**:
-- Partitioning ensures query performance remains constant regardless of dataset size
-- Clustering provides efficient filtering without full-table scans
-- Distributed query execution across BigQuery's infrastructure
-- Pre-aggregation tables keep query latency <2 seconds even at massive scale
-- Tested with 500M+ trade records; all queries remain <2s
-
-### 5. Data Pipeline
-**Question**: "How do you ensure data quality and freshness?"
-
-**Answer**:
-- Python data generation creates realistic financial datasets
-- Validation checks on schema conformance before loading
-- Idempotent loads prevent duplicates
-- Scheduled jobs refresh data daily (ETL orchestration with Cloud Scheduler)
-- Audit trail for all transactions (timestamp, portfolio_id tracking)
-
-### 6. Visualization Strategy
-**Question**: "How do you enable stakeholders to access insights?"
-
-**Answer**:
-- Looker dashboards provide self-service analytics
-- Pre-built queries reduce load on analytics engineers
-- Dynamic filters allow business users to explore data without SQL
-- Embedded dashboards integrate with business applications
-- Row-level security controls access by portfolio/user
 
 ## 📁 Project Structure
 
