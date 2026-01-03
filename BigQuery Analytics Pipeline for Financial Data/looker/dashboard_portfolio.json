@@ -1,0 +1,27 @@
+{
+  "name": "Portfolio Dashboard",
+  "title": "Portfolio Performance & Risk Analysis",
+  "description": "Tracks portfolio holdings, performance metrics, and sector allocation",
+  "elements": [
+    {
+      "type": "looker_table",
+      "title": "Top Portfolios by Value",
+      "query": "SELECT portfolio_id, SUM(total_amount) as portfolio_value, COUNT(DISTINCT symbol) as num_holdings FROM `financial-analytics-demo.financial_data.portfolio_transactions` WHERE transaction_type = 'BUY' GROUP BY portfolio_id ORDER BY portfolio_value DESC LIMIT 20"
+    },
+    {
+      "type": "looker_pie",
+      "title": "Sector Allocation (Sample Portfolio)",
+      "query": "SELECT sector, COUNT(*) as holdings FROM `financial-analytics-demo.financial_data.portfolio_transactions` WHERE portfolio_id = 'PORT_000001' AND transaction_type IN ('BUY', 'DIVIDEND') GROUP BY sector"
+    },
+    {
+      "type": "looker_column",
+      "title": "Dividend Income",
+      "query": "SELECT DATE(timestamp) as date, symbol, SUM(total_amount) as dividend FROM `financial-analytics-demo.financial_data.portfolio_transactions` WHERE transaction_type = 'DIVIDEND' GROUP BY date, symbol ORDER BY date DESC LIMIT 30"
+    },
+    {
+      "type": "looker_single_value",
+      "title": "Total Fees (Last 90 Days)",
+      "query": "SELECT SUM(fees) as total_fees FROM `financial-analytics-demo.financial_data.portfolio_transactions` WHERE date >= DATE_SUB(CURRENT_DATE(), INTERVAL 90 DAY)"
+    }
+  ]
+}

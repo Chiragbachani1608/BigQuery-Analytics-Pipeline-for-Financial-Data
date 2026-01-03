@@ -1,0 +1,28 @@
+{
+  "name": "KPI Dashboard",
+  "title": "Financial Analytics KPIs",
+  "description": "Key performance indicators for financial market analysis",
+  "elements": [
+    {
+      "type": "looker_single_value",
+      "title": "Total Market Volume (Today)",
+      "query": "SELECT SUM(total_volume) as market_volume FROM `financial-analytics-demo.financial_data.market_metrics` WHERE date = CURRENT_DATE() - 1"
+    },
+    {
+      "type": "looker_single_value",
+      "title": "Average Volatility",
+      "query": "SELECT AVG(volatility) as avg_volatility FROM `financial-analytics-demo.financial_data.market_metrics` WHERE date = CURRENT_DATE() - 1"
+    },
+    {
+      "type": "looker_single_value",
+      "title": "Positive Price Change %",
+      "query": "SELECT COUNT(IF(price_change_pct > 0, 1, NULL)) / COUNT(*) * 100 as pct_positive FROM `financial-analytics-demo.financial_data.market_metrics` WHERE date = CURRENT_DATE() - 1"
+    },
+    {
+      "type": "looker_single_value",
+      "title": "Total Transactions",
+      "query": "SELECT COUNT(*) as total_txns FROM `financial-analytics-demo.financial_data.market_trades` WHERE DATE(timestamp) = CURRENT_DATE() - 1"
+    }
+  ],
+  "image": "looker\\images\\kpi_summary.png"
+}

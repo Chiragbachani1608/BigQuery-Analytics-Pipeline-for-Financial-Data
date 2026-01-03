@@ -1,0 +1,30 @@
+{
+  "name": "Market Analysis Dashboard",
+  "title": "Market-Wide Analysis & Insights",
+  "description": "Aggregated market metrics, volume analysis, and volatility tracking",
+  "elements": [
+    {
+      "type": "looker_column",
+      "title": "Market Volume by Date",
+      "query": "SELECT date, SUM(total_volume) as total_market_volume FROM `financial-analytics-demo.financial_data.market_metrics` WHERE date >= DATE_SUB(CURRENT_DATE(), INTERVAL 30 DAY) GROUP BY date ORDER BY date"
+    },
+    {
+      "type": "looker_line",
+      "title": "Volatility Trends",
+      "query": "SELECT date, symbol, volatility FROM `financial-analytics-demo.financial_data.market_metrics` WHERE date >= DATE_SUB(CURRENT_DATE(), INTERVAL 30 DAY) ORDER BY date",
+      "measures": [
+        "volatility"
+      ]
+    },
+    {
+      "type": "looker_pie",
+      "title": "Buy/Sell Distribution",
+      "query": "SELECT SUM(buy_volume) as buy_volume, SUM(sell_volume) as sell_volume FROM `financial-analytics-demo.financial_data.market_metrics` WHERE date >= DATE_SUB(CURRENT_DATE(), INTERVAL 7 DAY)"
+    },
+    {
+      "type": "looker_gauge",
+      "title": "Market Health Index",
+      "query": "SELECT AVG(CASE WHEN price_change_pct > 0 THEN 1 ELSE 0 END) * 100 as positive_count FROM `financial-analytics-demo.financial_data.market_metrics` WHERE date = CURRENT_DATE() - 1"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Stock Performance Dashboard",
+  "title": "Daily Stock Performance & Trends",
+  "description": "Real-time monitoring of stock prices, trends, and performance metrics",
+  "elements": [
+    {
+      "type": "looker_line",
+      "title": "Stock Price Trends (90 Days)",
+      "query": "SELECT date, symbol, close FROM `financial-analytics-demo.financial_data.stock_prices` WHERE date >= DATE_SUB(CURRENT_DATE(), INTERVAL 90 DAY) ORDER BY date",
+      "dimensions": [
+        "date",
+        "symbol"
+      ],
+      "measures": [
+        "close"
+      ],
+      "filters": [
+        {
+          "field": "symbol",
+          "condition": {
+            "value": [
+              "AAPL",
+              "GOOGL",
+              "MSFT",
+              "AMZN"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "looker_column",
+      "title": "Daily Trading Volume",
+      "query": "SELECT DATE(timestamp) as date, symbol, SUM(quantity) as volume FROM `financial-analytics-demo.financial_data.market_trades` WHERE DATE(timestamp) >= DATE_SUB(CURRENT_DATE(), INTERVAL 30 DAY) GROUP BY date, symbol",
+      "dimensions": [
+        "date",
+        "symbol"
+      ],
+      "measures": [
+        "volume"
+      ]
+    },
+    {
+      "type": "looker_scatter",
+      "title": "Risk vs. Return (Volatility vs. Price Change)",
+      "query": "SELECT symbol, volatility, price_change_pct FROM `financial-analytics-demo.financial_data.market_metrics` WHERE date = CURRENT_DATE() - 1",
+      "dimensions": [
+        "symbol"
+      ],
+      "measures": [
+        "volatility",
+        "price_change_pct"
+      ]
+    },
+    {
+      "type": "looker_table",
+      "title": "Top Performers",
+      "query": "SELECT symbol, price_change_pct, total_volume, buy_sell_ratio FROM `financial-analytics-demo.financial_data.market_metrics` WHERE date = CURRENT_DATE() - 1 ORDER BY price_change_pct DESC LIMIT 10"
+    }
+  ],
+  "image": "looker\\images\\market_summary.png"
+}

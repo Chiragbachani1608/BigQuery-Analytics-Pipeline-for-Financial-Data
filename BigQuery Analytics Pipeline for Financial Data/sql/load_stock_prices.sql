@@ -1,0 +1,517 @@
+-- Auto-generated SQL load script
+-- Insert stock prices into BigQuery
+
+BEGIN TRANSACTION;
+
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-07-03 00:00:00', 'JPM', 292.1499938964844, 296.3999938964844, 291.2099914550781, 296.0, 6541600, NULL, NULL, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-07-07 00:00:00', 'JPM', 295.25, 296.0400085449219, 290.0799865722656, 291.9700012207031, 8825700, NULL, NULL, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-07-08 00:00:00', 'JPM', 289.2699890136719, 289.70001220703125, 280.30999755859375, 282.7799987792969, 15440900, NULL, NULL, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-07-09 00:00:00', 'JPM', 287.17999267578125, 287.20001220703125, 282.4800109863281, 283.1600036621094, 11273800, NULL, NULL, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-07-10 00:00:00', 'JPM', 283.0, 288.30999755859375, 283.0, 288.19000244140625, 8410900, NULL, NULL, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-07-11 00:00:00', 'JPM', 285.5199890136719, 287.3800048828125, 283.6499938964844, 286.8599853515625, 7384700, NULL, NULL, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-07-14 00:00:00', 'JPM', 287.07000732421875, 289.29998779296875, 285.260009765625, 288.70001220703125, 9079900, NULL, NULL, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-07-15 00:00:00', 'JPM', 288.0, 291.95001220703125, 285.4800109863281, 286.54998779296875, 12526100, NULL, NULL, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-07-16 00:00:00', 'JPM', 288.3999938964844, 290.7300109863281, 283.010009765625, 285.82000732421875, 9979800, NULL, NULL, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-07-17 00:00:00', 'JPM', 283.44000244140625, 290.29998779296875, 283.44000244140625, 289.8999938964844, 8509500, NULL, NULL, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-07-18 00:00:00', 'JPM', 289.5199890136719, 292.5, 288.2300109863281, 291.2699890136719, 12217000, NULL, NULL, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-07-21 00:00:00', 'JPM', 291.0, 294.17999267578125, 290.5799865722656, 290.9700012207031, 7898100, NULL, NULL, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-07-22 00:00:00', 'JPM', 291.5, 293.6300048828125, 289.17999267578125, 291.42999267578125, 6717500, NULL, NULL, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-07-23 00:00:00', 'JPM', 292.8399963378906, 296.989990234375, 292.54998779296875, 296.760009765625, 7083500, NULL, NULL, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-07-24 00:00:00', 'JPM', 297.4200134277344, 299.5899963378906, 296.20001220703125, 296.54998779296875, 7001200, NULL, 60.899125536632646, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-07-25 00:00:00', 'JPM', 296.70001220703125, 298.8999938964844, 295.9599914550781, 298.6199951171875, 5918500, NULL, 64.65819990317844, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-07-28 00:00:00', 'JPM', 297.6600036621094, 299.42999267578125, 296.82000732421875, 298.2799987792969, 5840400, NULL, 63.577059921597105, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-07-29 00:00:00', 'JPM', 300.0, 301.2900085449219, 296.20001220703125, 297.0400085449219, 7635700, NULL, 59.65906837320921, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-07-30 00:00:00', 'JPM', 297.4200134277344, 300.6099853515625, 297.3800048828125, 299.6300048828125, 8061700, NULL, 64.57035642119601, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-07-31 00:00:00', 'JPM', 299.1400146484375, 300.9800109863281, 295.5, 296.239990234375, 14749700, 291.83599853515625, 55.11261178434177, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-08-01 00:00:00', 'JPM', 290.3999938964844, 291.79998779296875, 284.239990234375, 289.3699951171875, 12007100, 291.50449829101564, 41.7626042750272, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-08-04 00:00:00', 'JPM', 290.260009765625, 294.32000732421875, 290.260009765625, 294.260009765625, 6649500, 291.6189987182617, 50.88277121781571, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-08-05 00:00:00', 'JPM', 294.69000244140625, 295.7900085449219, 287.239990234375, 291.3699951171875, 7182300, 292.0484985351562, 46.27084027348257, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-08-06 00:00:00', 'JPM', 292.29998779296875, 293.2900085449219, 290.1600036621094, 291.3500061035156, 6330200, 292.45799865722654, 46.23962247134818, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-08-07 00:00:00', 'JPM', 292.94000244140625, 293.4599914550781, 286.4100036621094, 286.94000244140625, 8057100, 292.39549865722654, 39.85151717976955, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-08-08 00:00:00', 'JPM', 288.9800109863281, 291.2300109863281, 284.7099914550781, 288.760009765625, 6634100, 292.49049987792966, 43.331056670522784, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-08-11 00:00:00', 'JPM', 289.3999938964844, 291.32000732421875, 288.7799987792969, 289.55999755859375, 5510100, 292.5334991455078, 44.841500041214026, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-08-12 00:00:00', 'JPM', 291.5, 294.75, 290.3399963378906, 292.8500061035156, 8570900, 292.84850006103517, 50.6653446715136, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-08-13 00:00:00', 'JPM', 293.95001220703125, 294.54998779296875, 287.1600036621094, 290.5299987792969, 8420400, 293.08399963378906, 46.90447225617912, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-08-14 00:00:00', 'JPM', 290.5799865722656, 294.20001220703125, 289.6400146484375, 294.1600036621094, 6322400, 293.2970001220703, 52.80723779575373, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-08-15 00:00:00', 'JPM', 294.8399963378906, 295.5, 289.82000732421875, 290.489990234375, 7340500, 293.2580001831055, 47.10541690781009, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-08-18 00:00:00', 'JPM', 290.0, 291.8999938964844, 288.4100036621094, 291.5299987792969, 5386900, 293.28600006103517, 48.79276762695955, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-08-19 00:00:00', 'JPM', 290.8299865722656, 292.4800109863281, 289.5299987792969, 290.6600036621094, 6031500, 293.24750061035155, 47.42972523747695, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-08-20 00:00:00', 'JPM', 290.80999755859375, 293.3299865722656, 287.2699890136719, 292.239990234375, 7374200, 293.02149963378906, 50.153135197813114, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-08-21 00:00:00', 'JPM', 291.94000244140625, 292.7699890136719, 289.4700012207031, 291.4700012207031, 6624000, 292.76750030517576, 48.82562935716509, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-08-22 00:00:00', 'JPM', 293.20001220703125, 297.1600036621094, 290.1300048828125, 296.239990234375, 8552800, 292.6485000610352, 56.50604596672675, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-08-25 00:00:00', 'JPM', 296.239990234375, 297.3500061035156, 294.1400146484375, 294.8999938964844, 5856300, 292.47949981689453, 54.051825627466314, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-08-26 00:00:00', 'JPM', 294.1600036621094, 298.739990234375, 293.5, 298.57000732421875, 6714700, 292.5559997558594, 59.26960785437222, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-08-27 00:00:00', 'JPM', 297.25, 301.07000732421875, 297.0400085449219, 299.2799987792969, 6056500, 292.5384994506836, 60.210958273712635, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-08-28 00:00:00', 'JPM', 300.0199890136719, 301.239990234375, 298.70001220703125, 301.07000732421875, 6410500, 292.7800003051758, 62.56032831437411, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-08-29 00:00:00', 'JPM', 302.0400085449219, 302.95001220703125, 299.7300109863281, 301.4200134277344, 6796400, 293.38250122070315, 63.020117414326364, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-09-02 00:00:00', 'JPM', 300.260009765625, 300.4599914550781, 294.5, 299.70001220703125, 7221900, 293.6545013427734, 59.17422576404403, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-09-03 00:00:00', 'JPM', 300.57000732421875, 300.57000732421875, 296.3800048828125, 299.510009765625, 6316900, 294.06150207519534, 58.747720918580825, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-09-04 00:00:00', 'JPM', 300.0, 304.42999267578125, 298.2799987792969, 303.82000732421875, 6605800, 294.6850021362305, 64.9237226213617, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-09-05 00:00:00', 'JPM', 303.6499938964844, 305.1499938964844, 294.30999755859375, 294.3800048828125, 9837700, 295.05700225830077, 47.980269980553366, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-09-08 00:00:00', 'JPM', 294.8900146484375, 296.4599914550781, 291.44000244140625, 292.9100036621094, 8188500, 295.264501953125, 45.96845215397379, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-09-09 00:00:00', 'JPM', 292.6000061035156, 299.0, 292.30999755859375, 297.8500061035156, 7848200, 295.6790023803711, 53.08731187648035, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-09-10 00:00:00', 'JPM', 296.70001220703125, 301.5400085449219, 295.3999938964844, 300.5400085449219, 7787300, 296.0635025024414, 56.45197568637055, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-09-11 00:00:00', 'JPM', 301.239990234375, 305.7300109863281, 300.7900085449219, 305.55999755859375, 7942500, 296.81500244140625, 61.93822093641705, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-09-12 00:00:00', 'JPM', 305.0, 307.54998779296875, 303.70001220703125, 306.9100036621094, 6846700, 297.45250244140624, 63.27805223372682, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-09-15 00:00:00', 'JPM', 307.1700134277344, 309.95001220703125, 307.1700134277344, 308.8999938964844, 7122000, 298.37300262451174, 65.22149535980637, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-09-16 00:00:00', 'JPM', 310.0, 310.8999938964844, 307.1300048828125, 309.19000244140625, 10525600, 299.25600280761716, 65.50798519890843, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-09-17 00:00:00', 'JPM', 310.3900146484375, 312.9100036621094, 308.7699890136719, 311.75, 8657800, 300.31050262451174, 68.01286613089421, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-09-18 00:00:00', 'JPM', 311.7900085449219, 313.44000244140625, 309.6099853515625, 313.2300109863281, 8050700, 301.36000366210936, 69.396586898517, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-09-19 00:00:00', 'JPM', 313.6000061035156, 315.79998779296875, 309.1199951171875, 314.7799987792969, 23568600, 302.52550354003904, 70.82023590605836, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-09-22 00:00:00', 'JPM', 309.79998779296875, 313.70001220703125, 309.55999755859375, 312.44000244140625, 7520200, 303.33550415039065, 65.84059106294328, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-09-23 00:00:00', 'JPM', 311.82000732421875, 316.30999755859375, 310.5799865722656, 312.739990234375, 8584400, 304.22750396728514, 66.16901045257845, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-09-24 00:00:00', 'JPM', 314.04998779296875, 316.5799865722656, 311.6700134277344, 313.4200134277344, 7310500, 304.9700042724609, 66.9448333952454, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-09-25 00:00:00', 'JPM', 314.1199951171875, 315.6499938964844, 311.79998779296875, 313.45001220703125, 7083200, 305.67850494384766, 66.98080658252063, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-09-26 00:00:00', 'JPM', 314.8999938964844, 317.80999755859375, 313.70001220703125, 316.05999755859375, 7258100, 306.4280044555664, 70.03612651457466, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-09-29 00:00:00', 'JPM', 317.05999755859375, 318.010009765625, 313.6600036621094, 315.69000244140625, 6462400, 307.14150390625, 69.06054659945987, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-09-30 00:00:00', 'JPM', 316.25, 317.4100036621094, 310.1099853515625, 315.42999267578125, 11823300, 307.9280029296875, 68.3401116606431, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-01 00:00:00', 'JPM', 313.9700012207031, 314.5899963378906, 307.4100036621094, 310.7099914550781, 9235200, 308.48800201416014, 56.76373046970082, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-02 00:00:00', 'JPM', 310.0, 310.55999755859375, 306.1400146484375, 307.54998779296875, 7600000, 308.6745010375977, 50.585636468890556, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-03 00:00:00', 'JPM', 308.510009765625, 311.6600036621094, 308.2099914550781, 310.0299987792969, 6029900, 309.4570007324219, 54.74828135593549, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-06 00:00:00', 'JPM', 310.17999267578125, 311.75, 305.1300048828125, 309.17999267578125, 7214500, 310.27050018310547, 53.09730166357673, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-07 00:00:00', 'JPM', 309.3500061035156, 310.010009765625, 304.70001220703125, 307.69000244140625, 8454200, 310.7625, 50.23744139276685, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-08 00:00:00', 'JPM', 308.2099914550781, 308.7799987792969, 303.54998779296875, 304.0299987792969, 6489900, 310.93699951171874, 43.972256435300274, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-09 00:00:00', 'JPM', 305.04998779296875, 308.0400085449219, 303.3900146484375, 305.5299987792969, 7060300, 310.9354995727539, 46.89529029148288, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-10 00:00:00', 'JPM', 305.6600036621094, 310.4700012207031, 300.80999755859375, 300.8900146484375, 8597400, 310.63450012207034, 39.95181156063114, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-13 00:00:00', 'JPM', 305.6000061035156, 309.4599914550781, 305.45001220703125, 307.9700012207031, 10788700, 310.58800048828124, 51.70271420349928, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-14 00:00:00', 'JPM', 305.8399963378906, 307.0, 294.2099914550781, 302.0799865722656, 16178800, 310.23249969482424, 43.990201480081694, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-15 00:00:00', 'JPM', 306.3900146484375, 312.1199951171875, 305.44000244140625, 305.69000244140625, 11354800, 309.9294998168945, 49.01061767107272, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-16 00:00:00', 'JPM', 305.3500061035156, 308.67999267578125, 297.07000732421875, 298.5400085449219, 10549400, 309.1949996948242, 41.144373722598814, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-17 00:00:00', 'JPM', 299.1600036621094, 299.54998779296875, 294.20001220703125, 297.55999755859375, 10153500, 308.33399963378906, 40.1921726320977, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-20 00:00:00', 'JPM', 298.5, 303.69000244140625, 298.1600036621094, 302.3599853515625, 6894900, 307.8299987792969, 46.69870842393884, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-21 00:00:00', 'JPM', 301.6600036621094, 304.04998779296875, 297.0, 297.0899963378906, 7372700, 307.04749908447263, 41.376413887647765, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-22 00:00:00', 'JPM', 297.7699890136719, 298.05999755859375, 290.5400085449219, 294.1099853515625, 8054100, 306.0819976806641, 38.69108327039767, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-23 00:00:00', 'JPM', 294.3800048828125, 296.3699951171875, 292.510009765625, 294.5400085449219, 5438800, 305.1364974975586, 39.30324906372477, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-24 00:00:00', 'JPM', 296.0799865722656, 302.6000061035156, 295.45001220703125, 300.44000244140625, 7228300, 304.3554977416992, 47.10675857418268, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-27 00:00:00', 'JPM', 302.1600036621094, 304.5299987792969, 301.010009765625, 304.1499938964844, 5642200, 303.77849731445315, 51.3429567130697, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-28 00:00:00', 'JPM', 304.8599853515625, 307.9700012207031, 303.1600036621094, 305.3599853515625, 6336000, 303.2749969482422, 52.67423188175753, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-29 00:00:00', 'JPM', 303.510009765625, 308.25, 303.010009765625, 305.510009765625, 7520300, 303.0149978637695, 52.84649820579568, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-30 00:00:00', 'JPM', 305.7900085449219, 312.6099853515625, 305.1000061035156, 309.44000244140625, 7514600, 303.10949859619143, 57.23765287698486, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-10-31 00:00:00', 'JPM', 308.5400085449219, 312.8699951171875, 307.25, 311.1199951171875, 7721300, 303.16399841308595, 58.99556028723595, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-11-03 00:00:00', 'JPM', 311.0, 312.32000732421875, 306.2099914550781, 309.3500061035156, 7770000, 303.17249908447263, 56.36648350621612, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-11-04 00:00:00', 'JPM', 306.7099914550781, 312.2200012207031, 305.1000061035156, 309.25, 7085200, 303.25049896240233, 56.214053852115114, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-11-05 00:00:00', 'JPM', 309.6099853515625, 313.1000061035156, 305.6300048828125, 311.67999267578125, 6865200, 303.63299865722655, 59.10774841381025, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-11-06 00:00:00', 'JPM', 310.989990234375, 314.8399963378906, 310.260009765625, 313.4200134277344, 7206100, 304.0274993896484, 61.09067133842492, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-11-07 00:00:00', 'JPM', 311.8900146484375, 314.42999267578125, 307.6400146484375, 314.2099914550781, 7302300, 304.6934982299805, 61.9918011684746, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-11-10 00:00:00', 'JPM', 315.0, 319.55999755859375, 314.2099914550781, 316.8900146484375, 5794100, 305.1394989013672, 64.95693271443204, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-11-11 00:00:00', 'JPM', 317.5, 319.04998779296875, 315.2799987792969, 315.6199951171875, 5030200, 305.8164993286133, 62.46983105013637, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-11-12 00:00:00', 'JPM', 316.260009765625, 322.25, 316.2099914550781, 320.4100036621094, 10578300, 306.55249938964846, 67.52089285393082, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-11-13 00:00:00', 'JPM', 319.2300109863281, 320.6300048828125, 309.1000061035156, 309.4800109863281, 8973300, 307.09949951171876, 50.73983078681401, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-11-14 00:00:00', 'JPM', 307.510009765625, 307.6400146484375, 301.2300109863281, 303.6099853515625, 10327000, 307.40199890136716, 44.362973145842204, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-11-17 00:00:00', 'JPM', 304.0, 305.5899963378906, 297.6700134277344, 300.3699951171875, 8344000, 307.30249938964846, 41.27923340690608, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-11-18 00:00:00', 'JPM', 299.5, 302.95001220703125, 297.0199890136719, 299.4100036621094, 8077300, 307.4184997558594, 40.38351895246559, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-11-19 00:00:00', 'JPM', 299.739990234375, 304.45001220703125, 299.2699890136719, 303.2699890136719, 5546600, 307.87649993896486, 45.50394390224772, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-11-20 00:00:00', 'JPM', 306.3399963378906, 309.9200134277344, 298.1600036621094, 298.3800048828125, 7501600, 308.06849975585936, 40.73114867218718, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-11-21 00:00:00', 'JPM', 301.2900085449219, 301.67999267578125, 292.80999755859375, 298.0199890136719, 11766800, 307.94749908447267, 40.39521574614668, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-11-24 00:00:00', 'JPM', 298.239990234375, 299.82000732421875, 294.510009765625, 298.0, 10940200, 307.63999938964844, 40.37530460593638, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-11-25 00:00:00', 'JPM', 300.04998779296875, 304.5, 295.55999755859375, 303.0, 8877200, 307.5220001220703, 47.36423138307325, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-11-26 00:00:00', 'JPM', 305.0, 308.5299987792969, 303.20001220703125, 307.6400146484375, 7910900, 307.6285003662109, 52.883611921705274, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-11-28 00:00:00', 'JPM', 309.1000061035156, 313.7200012207031, 308.239990234375, 313.0799865722656, 4322400, 307.8104995727539, 58.39226512494641, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-01 00:00:00', 'JPM', 312.95001220703125, 314.0400085449219, 308.5400085449219, 308.9200134277344, 7727300, 307.70050048828125, 53.26383517287135, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-02 00:00:00', 'JPM', 308.739990234375, 310.4800109863281, 307.0899963378906, 307.8800048828125, 7249000, 307.6270004272461, 52.033445287768295, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-03 00:00:00', 'JPM', 307.20001220703125, 312.3599853515625, 306.79998779296875, 312.1300048828125, 8535300, 307.77100067138673, 56.459718864707796, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-04 00:00:00', 'JPM', 313.260009765625, 318.489990234375, 313.0, 316.1000061035156, 9627800, 307.99200134277345, 60.15821296957621, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-05 00:00:00', 'JPM', 315.6400146484375, 318.4800109863281, 314.67999267578125, 315.0400085449219, 6518900, 308.0730010986328, 58.72388847483908, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-08 00:00:00', 'JPM', 315.05999755859375, 316.4700012207031, 313.3500061035156, 315.2099914550781, 7417200, 308.1230010986328, 58.89314748305502, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-09 00:00:00', 'JPM', 314.95001220703125, 318.79998779296875, 300.0199890136719, 300.510009765625, 18049200, 307.3040008544922, 42.61752911263807, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-10 00:00:00', 'JPM', 300.5, 311.19000244140625, 298.4599914550781, 310.1099853515625, 18874100, 307.02850036621095, 51.955534442650745, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-11 00:00:00', 'JPM', 309.239990234375, 318.0, 309.239990234375, 317.3800048828125, 9721900, 306.8770004272461, 57.58474035071013, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-12 00:00:00', 'JPM', 319.67999267578125, 320.2699890136719, 316.6000061035156, 318.5199890136719, 8982900, 307.3289993286133, 58.40767412513683, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-15 00:00:00', 'JPM', 319.5899963378906, 322.8800048828125, 318.3900146484375, 320.0199890136719, 10864100, 308.1494995117188, 59.52056937487778, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-16 00:00:00', 'JPM', 319.0899963378906, 319.5199890136719, 314.3999938964844, 315.54998779296875, 8331300, 308.9084991455078, 54.813708781038606, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-17 00:00:00', 'JPM', 318.42999267578125, 319.3699951171875, 314.6600036621094, 314.9800109863281, 8718700, 309.68699951171874, 54.2248691970264, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-18 00:00:00', 'JPM', 316.0, 317.70001220703125, 312.2200012207031, 313.0, 11444900, 310.17350006103516, 52.129843613571936, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-19 00:00:00', 'JPM', 313.7900085449219, 318.55999755859375, 313.19000244140625, 317.2099914550781, 24494400, 311.11499938964846, 56.02063602154187, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-22 00:00:00', 'JPM', 317.510009765625, 323.2300109863281, 317.510009765625, 323.0899963378906, 8354600, 312.3684997558594, 60.81149183284499, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-23 00:00:00', 'JPM', 323.6099853515625, 327.7799987792969, 323.0899963378906, 325.92999267578125, 6668300, 313.76499938964844, 62.9129063744309, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-24 00:00:00', 'JPM', 326.239990234375, 329.989990234375, 325.5, 329.1700134277344, 4289300, 315.07350006103513, 65.2052584098652, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-26 00:00:00', 'JPM', 329.1099853515625, 330.8599853515625, 326.5400085449219, 327.9100036621094, 4158300, 316.0869995117188, 63.559929526108775, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-29 00:00:00', 'JPM', 327.0, 327.7699890136719, 323.5299987792969, 323.75, 8635300, 316.6205001831055, 58.32700729639021, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-30 00:00:00', 'JPM', 324.80999755859375, 324.94000244140625, 322.489990234375, 323.4200134277344, 7904300, 317.34550018310546, 57.91965135884607, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2025-12-31 00:00:00', 'JPM', 324.3399963378906, 324.8800048828125, 322.0400085449219, 322.2200012207031, 5048500, 318.0625, 56.3776477567577, CURRENT_TIMESTAMP());
+INSERT INTO `{project}.{dataset}.stock_prices`
+  (date, symbol, open, high, low, close, volume, sma_20, rsi_14, fetch_timestamp)
+VALUES
+  ('2026-01-02 00:00:00', 'JPM', 322.5, 325.7300109863281, 320.739990234375, 325.4800109863281, 8050200, 318.7300003051758, 59.52983727352636, CURRENT_TIMESTAMP());
+
+COMMIT TRANSACTION;
+
+-- Replace {project} and {dataset} with your actual BigQuery project and dataset IDs
